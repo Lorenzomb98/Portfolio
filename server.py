@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def homepage():
-    return render_template('index.html')
+    return render_template('home.html')
 
 @app.route('/<path:subpath>')
 def show_subpath(subpath):
