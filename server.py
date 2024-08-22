@@ -40,4 +40,8 @@ def submit_form():
     else:
         return 'Something went wrong'
 
-# to run: flask --app server run --debug
+'''
+ to run: flask --app server run --debug
+'''
+
+
